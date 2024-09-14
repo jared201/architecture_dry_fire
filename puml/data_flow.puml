@@ -1,0 +1,13 @@
+@startuml
+!include <material/common>
+' To import the sprite file you DON'T need to place a prefix!
+!include <material/cellphone_iphone>
+!include <material/access_point>
+
+
+MA_CELLPHONE_IPHONE(Black, 1, iphone)
+
+MA_ACCESS_POINT(Black, 1, access_point)
+
+
+@enduml
