@@ -7,7 +7,9 @@
 !include <office/Clouds/cloud_disaster_red>
 !include <office/Devices/cell_phone_iphone_proportional>
 !include <office/Concepts/service_application>
+!include <office/Concepts/application_web>
 !include <office/Servers/web_server>
+!include <tupadr3/material/phone_iphone>
 
 title Office Icons Example
 
@@ -22,7 +24,11 @@ package "Sprites" {
     fw <.left.> cloud
 }
 
+
 OFF_CELL_PHONE_IPHONE_PROPORTIONAL(iphone,Applicant)
 OFF_SERVICE_APPLICATION(nextGen,Next Gen)
 OFF_WEB_SERVER(web_server,Web-Server)
+OFF_APPLICATION_WEB(web,TU(TransUnion))
+MATERIAL_PHONE_IPHONE(iphone2,iPhone, rectangle, green)
+
 @enduml
